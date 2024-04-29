@@ -1,3 +1,4 @@
+// macro faster for small inputs and methods faster for larger inputs theoretically
 // macro scan
 #define mscan(x) do{while((x=getchar_unlocked())<'0'); for(x-='0'; '0'<=(_=getchar_unlocked()); x=(x<<3)+(x<<1)+_-'0');}while(0)
 char _;
