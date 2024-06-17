@@ -1,7 +1,8 @@
 class ds{
 	std::vector<int> p; // parent
 public:
-	ds(int n){ // constructs a disjoint set
+	ds() = default; // allows creation without initializing to vairables
+	explicit ds(int n){ // constructs a disjoint set
 		p.resize(n);
 		for(int i=0;i<n;i++){
 			p[i] = i;
@@ -17,3 +18,10 @@ public:
 		p[f(x)] = f(y);
 	}
 };
+int main(){
+	vector<ds> a(100); // making 100 dsets inside vector
+	for(int i=0;i<100;i++) a[i]=ds(1000);
+	
+	ds dset = ds(1000) // make a single dset
+	return 0;
+}
