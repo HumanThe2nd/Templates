@@ -1,4 +1,6 @@
-// Dynamic Programming optimzed fibonnaci calculator
+// Fibonacci 2
+// Dynamic Programming optimzed program for computing Fibonacci sequences
+// Time Complexity: O(n)
 // Author: Dan Shan
 // Date: 2024-09-06
 #include <stdio.h>
