@@ -3,6 +3,7 @@
 // Author: Dan Shan
 // Date: 2024-09-06
 // Naive solution for fibonacci sequence
+// Time complexity: O(2^n)
 #include <stdio.h>
 int fib(int n) {
     if(n==2||n==1) return n-1;
