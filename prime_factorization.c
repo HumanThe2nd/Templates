@@ -11,3 +11,5 @@ long long primefac(long long n){
 		}
 	}
 	if(n>m) m=n; // remainder could also be a larger prime
+	return m;
+}
