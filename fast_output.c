@@ -1,10 +1,10 @@
 /*
-Fast output for integers in c/c++
+Fast output for positive integers in c/c++
 Author: Dan Shan
 Date: 2024-11-30
 */
 void print(int n) {
-    if(!n) putchar_unlocked('0');
+    if(!n) putchar('0');
     char s[10];
     int i=0;
     while(n>0){
@@ -12,7 +12,7 @@ void print(int n) {
         n/=10;
     }
     while (--i >= 0) {
-        putchar_unlocked(s[i]);
+        putchar(s[i]);
     }
-    putchar_unlocked('\n');
+    putchar('\n');
 }
