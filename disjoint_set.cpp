@@ -1,3 +1,8 @@
+/*
+C++ Disjoint set template
+Author: HumanThe2nd
+Date: 2025-06-17
+*/
 class ds{
 	std::vector<int> p; // parent
 public:
